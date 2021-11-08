@@ -1,0 +1,78 @@
+.exp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5rem 0rem;
+}
+.App {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  /* margin-left: 10rem; */
+  /* background: url(../src/Img/wallhaven-ym3d1k.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+@media (max-width: 1050px) {
+  .exp {
+    flex-direction: column !important;
+  }
+}
+
+/* .exp-2 {
+  margin-right: 10rem;
+}
+@media screen and (max-width: 700px) {
+  .App {
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .exp-2 {
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .exp-2 {
+    margin: 0 4rem;
+    justify-content: center !important;
+  }
+} */
+.image {
+  width: 25rem;
+  height: 30rem;
+  padding: 1rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+@media(max-width:600px){
+  .image{
+    width: 18rem;
+    height:20rem;
+  }
+}
+
+.Typewriter__wrapper {
+  padding-left: 10px;
+  color: #f06048;
+  font-size: 24px;
+  /* color: #ea6a4f; */
+  /* color: #008080; */
+}
+@media (max-width: 210px) {
+  .Typewriter__wrapper {
+    padding-left: 0.3rem !important;
+  }
+}
+.below-name {
+  display: flex;
+  font-size: 24px;
+}
